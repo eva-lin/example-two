@@ -14,5 +14,13 @@ public class Main {
 
         boolean bl = true;
 
+        //Задача 2
+        System.out.println("Task 2");
+        float weight1 = 78.2f;
+        float weight2 = 82.7f;
+        float totalWeight = weight1 + weight2;
+        float difWeight = Math.abs(weight1 -weight2);
+        System.out.println("Общий вес: " + totalWeight+ "кг");
+        System.out.println("Разница между весами бойцов: " + difWeight+ "кг");
     }
 }
