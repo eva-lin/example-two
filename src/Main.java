@@ -31,5 +31,17 @@ public class Main {
         short eggs = 4;
         double breakfast = bananas*80 + milk*1.05 + iceCream*100 +eggs*70;
         System.out.println("Общий вес завтрака: " + breakfast/1000 + " кг");
+
+        //Задача 4
+        System.out.println("Task 4");
+        short need = 7000;
+        short weightCase1 = 250;
+        short weightCase2 = 500;
+        int daysCase1 = need/weightCase1;
+        int daysCase2 = need/weightCase2;
+        System.out.println("Потребуется " + daysCase1 + " дней на похудение, если худеть на 250гр каждый деть");
+        System.out.println("Потребуется " + daysCase2 + " дней на похудение, если худеть на 500гр каждый деть");
+        System.out.println("В среднем на похудение потребуется " + (daysCase1+daysCase2)/2 + " дней");
+
     }
 }
