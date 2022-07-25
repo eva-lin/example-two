@@ -43,5 +43,23 @@ public class Main {
         System.out.println("Потребуется " + daysCase2 + " дней на похудение, если худеть на 500гр каждый деть");
         System.out.println("В среднем на похудение потребуется " + (daysCase1+daysCase2)/2 + " дней");
 
+        //Задача 5
+        System.out.println("Task 5");
+        int salaryMasha = 67760;
+        int salaryDenis = 83690;
+        int salaryKristina = 76230;
+        short inc = 10;
+
+        int newSalaryMasha = salaryMasha + (salaryMasha * inc/100);
+        int annualIncomeMasha = newSalaryMasha*12 - salaryMasha*12;
+        System.out.println("Маша теперь получает "+ newSalaryMasha + " рублей. Годовой доход вырос на " + annualIncomeMasha + " рублей");
+
+        int newSalaryDenis = salaryDenis + (salaryDenis * inc/100);
+        int annualIncomeDenis = newSalaryDenis*12 - salaryDenis*12;
+        System.out.println("Денис теперь получает "+ newSalaryDenis + " рублей. Годовой доход вырос на " + annualIncomeDenis + " рублей");
+
+        int newSalaryKristina = salaryKristina + (salaryKristina * inc/100);
+        int annualIncomeKristina = newSalaryKristina*12 - salaryKristina*12;
+        System.out.println("Кристина теперь получает "+ newSalaryKristina + " рублей. Годовой доход вырос на " + annualIncomeKristina + " рублей");
     }
 }
